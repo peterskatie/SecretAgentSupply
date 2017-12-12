@@ -1,0 +1,107 @@
+html{
+  font-size: 18px;
+  font-family: helvetica, sans-serif;
+  }
+  
+  .container{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /*banner*/
+  
+  .company{
+  background-color: black;
+  color: white;
+}
+
+.company .container{
+  display: flex;
+  align-items: center;
+  padding: 12px 0px 12px 0.5em;
+  font-size: 1rem;
+  
+}
+
+.company img{
+  padding-right: 1rem;
+  padding-left:0.5rem;
+  height: 1.5rem;
+}
+
+/* main header*/
+#main-banner{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+}
+
+.headline{
+  font-family: helvetica;
+  color: white;
+  background-color: black;
+  position: relative;
+  padding: 2rem 3rem;
+  top: 9rem;
+  width: 20rem;
+} 
+
+h1, h4{
+  font-weight: bold;
+}
+h4{
+  font-size: 1rem;
+}
+
+h1{
+  font-size: 2rem;
+  margin-top: 0.25rem;
+}
+
+/* navigation bar */
+
+nav{
+  background-color: firebrick;
+  color: white;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0.75rem 0;
+  
+}
+/* products and business info */
+
+.products{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+.product{
+  width: 30%;
+}
+
+.product-image{
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 8rem;
+}
+
+.description {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
