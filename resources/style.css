@@ -74,8 +74,10 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  padding: 0.75rem 0;
-  
+  padding: 0.75rem 0;  
+}
+.mobile-nav{
+  display: none;
 }
 /* products and business info */
 
@@ -133,10 +135,7 @@ width: 35%;
   align-items: center;
 }
 
-@media only screen and(max-width 1024px){
-  body{
-    font-size: 16px;
-  }
+@media only screen and (max-width: 1024px){
   .mobile-nav{
     display: block;
     text-align: center;
@@ -147,11 +146,46 @@ width: 35%;
   .product{
     width: 47%;
   }
-  .product glasses{
+  .product.glasses{
     display: none;
   }
   .info {
     width: 35%;
   }
 }
-  
+@media only screen and (max-width:470px){
+  .products{
+    justify-content: center;
+  }
+  .product{
+    width: 90%;
+  }
+  .product.watch{
+    display: none;
+  }
+  .info{
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+  .business-info{
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+  #main-banner{
+    height:15rem;
+  }
+  h4{
+    font-size: 0.77rem;
+  }
+  h1{
+    font-size: 1rem;
+  }
+  .headline{
+    padding: 1rem 2rem;
+    top: 11rem;
+  }
+  .footer{
+    justify-content: center;
+  }
+}
+
